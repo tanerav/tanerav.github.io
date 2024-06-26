@@ -32,6 +32,29 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.certification-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+}
+.center-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px; /* Adjust height as needed */
+}
+.certification-slide {
+    flex: 0 0 auto;
+    width: 150px;
+    scroll-snap-align: center;
+}
+
+.certification-slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 ol, ul {
 	list-style: none;
